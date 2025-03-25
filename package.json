@@ -1,0 +1,11 @@
+{
+  "name": "language-puzzlescript",
+  "version": "1.0.0",
+  "description": "PuzzleScript syntax highlighting for GitHub",
+  "repository": "https://github.com/stephenlavelle/puzzlescript-textmate-grammar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

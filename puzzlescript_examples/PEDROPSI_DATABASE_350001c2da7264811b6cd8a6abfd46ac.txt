@@ -1,0 +1,89 @@
+title sticker
+author TGE
+
+========
+OBJECTS
+========
+
+Background 
+White  
+
+Target 
+Grey
+0...0
+.0.0.
+..0..
+.0.0.
+0...0
+
+Wall 
+Black
+
+Player 
+Blue   
+
+NormC
+Orange
+
+Crate 
+Orange 
+
+=======
+LEGEND
+=======
+
+. = Background
+# = Wall
+P = Player
+N = NormC
+C = Crate
+@ = Crate and Target
+O = Target
+Win = Crate or NormC
+
+=======
+SOUNDS
+=======
+
+================
+COLLISIONLAYERS
+================
+
+Background
+Target
+Player, Wall, Crate, NormC
+
+======
+RULES     
+======     
+
+[ >  Player | NormC ] -> [  >  Player | > NormC ] 
+
+[ >  Player | Crate ] -> [  >  Player | > Crate  ]   
+[ Crate | >  Player ] -> [  >  Crate | > Player  ]
+ 
+==============
+WINCONDITIONS
+==============
+
+All Target on Win      
+
+=======     
+LEVELS
+=======
+
+#####
+#OOO#
+#.N.#
+#.NN#
+##P.#
+#####
+
+message and again please
+
+#####
+#OOO#
+#.C.#
+#.CC#
+##P.#
+#####
